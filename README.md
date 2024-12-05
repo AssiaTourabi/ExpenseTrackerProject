@@ -53,8 +53,8 @@ Optimized for all device sizes (desktop, tablet, mobile).
 
 ## Technologies Used
 Frontend
-Framework: Angular v18
-UI Library: Bootstrap v5, Bootstrap Icons
+Framework: Angular v18.
+UI Library: Bootstrap v5, Bootstrap Icons.
 
 Backend
 Framework: .NET 8
