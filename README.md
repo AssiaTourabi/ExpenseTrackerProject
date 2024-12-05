@@ -19,7 +19,6 @@ Ensure you have the following installed on your machine:
 - [.NET SDK](https://dotnet.microsoft.com/download) (v7.0 or higher)
 
 ### Clone the Repository
-```bash
 git clone https://github.com/your-username/wallet.git
 
 ### Install Dependencies
