@@ -1,0 +1,75 @@
+/* Sidebar CSS (sidebar.css) */
+.sidebar {
+  max-width: 900px;
+  max-height: 100%;
+  width: 260px;
+  height: 700px;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.1);
+  background-color: #18445c;
+  border-radius: 10px 30px 30px 10px;
+  overflow-y: auto;
+  display: relative;
+  flex: 1 1 auto;
+  justify-content: center;
+  padding: 24px;
+  margin-right: 2px;
+  position: relative;
+}
+
+.sidebar a {
+  color: #f1f1ef;
+}
+
+.sidebar a:hover {
+  background-color: #020022;
+  color: #5b759e;
+  border-radius: 5px;
+}
+
+.sidebar hr {
+  border-color: white;
+}
+
+img {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 140px;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .sidebar a {
+    font-size: 14px;
+  }
+
+  img {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .sidebar a {
+    font-size: 12px;
+  }
+
+  img {
+    width: 100px;
+    height: 70px;
+  }
+}

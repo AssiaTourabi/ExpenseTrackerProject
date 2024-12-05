@@ -1,0 +1,108 @@
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.masthead {
+
+
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%);
+
+  background-color: #000;
+  background-repeat: no-repeat;
+
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.masthead h1, .masthead .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(#e2e60f, rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead h2, .masthead .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .masthead h1, .masthead .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1, .masthead .h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2, .masthead .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+.masthead .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.masthead h1 {
+  font-size: 4rem; /* Taille de la police pour le titre */
+  margin-bottom: 1rem; /* Marge en dessous du titre */
+  font-size: 100px;
+}
+
+.masthead h2 {
+  font-size: 3rem; /* Taille de la police pour le sous-titre */
+  color:#838102; /* Couleur du sous-titre */
+  margin-bottom: 2rem; /* Marge en dessous du sous-titre */
+  font-size: 20px;
+
+}
+
+.masthead button {
+  font-size: 1.25rem; /* Taille de la police pour le bouton */
+  padding: 0.75rem 1.5rem; /* Padding du bouton */
+}
+.masthead button {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #7f5efd;
+  border: none;
+  color: white;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, transform 0.3s; /* Transition pour les effets */
+}
+
+.masthead button:hover {
+  background-color: #e2e60f;
+  transform: scale(1.05);
+}
+.title{
+
+  color: #7f5efd;
+
+}

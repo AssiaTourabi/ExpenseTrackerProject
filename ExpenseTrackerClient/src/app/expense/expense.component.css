@@ -1,0 +1,57 @@
+.progress-bar {
+  transition: width 0.4s ease-in-out;
+}
+.card {
+  border-radius: 12px;
+}
+.list-group-item {
+  border-radius: 8px;
+  border: none;
+  background-color: #f8f9fa;
+}
+.list-group-item:hover {
+  background-color: #e9ecef;
+}
+.btn-success {
+  transition: background-color 0.3s ease;
+}
+.btn-success:hover {
+  background-color: #7f5efd;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  transition: width 0.4s ease;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+
+.progress-bar {
+  font-weight: bold;
+}
+
+button {
+  min-width: 90px; /* Pour uniformiser les boutons */
+}
+
+td button {
+  margin-right: 10px; /* Évite les collisions dans la table */
+}
+.depenseHeader {
+  background-color: #7f5efd; /* Vert personnalisé */
+  color: white; /* Texte blanc */
+  font-size: 1.25rem; /* Taille du texte */
+  padding: 15px; /* Espacement */
+  border-radius: 5px; /* Coins arrondis */
+}
+
